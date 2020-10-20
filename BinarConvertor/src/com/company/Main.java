@@ -38,7 +38,7 @@ public class Main {
         } else if (d == (-1.0 / 0)) {
             System.out.println("1111 1111 1111 0000 0000 0000 0000");
         } else {
-            System.out.println("Какой тип данных вам нужен?:");
+            System.out.println("Какой тип данных вам нужен?(введите цифру):");
             System.out.println("1)Double");
             if (d != 0.0D) {
                 if (d < 3.4D * Math.pow(10.0D, 38.0D) && d > -3.4D * Math.pow(10.0D, 38.0D)) {
